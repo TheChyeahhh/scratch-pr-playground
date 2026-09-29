@@ -1,0 +1,10 @@
+{
+  "name": "scratch-pr-playground",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scratch repo for automated tests, safe to delete",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}
