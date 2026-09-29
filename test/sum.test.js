@@ -5,3 +5,7 @@ import { sum } from "../sum.js";
 test("adds two numbers", () => {
   assert.equal(sum(2, 3), 5);
 });
+
+test("adds a negative number", () => {
+  assert.equal(sum(2, -3), -1);
+});
